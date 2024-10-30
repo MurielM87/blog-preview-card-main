@@ -1,0 +1,15 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blog preview card coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:style.css"
+  },
+  "author": "Muriel MARCHAL",
+  "license": "ISC",
+  "dependencies": {
+    "blog-preview-card-main": "file:",
+    "sass": "^1.80.4"
+  }
+}

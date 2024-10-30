@@ -1,0 +1,102 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+}
+body .container {
+  width: 1460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: hsl(47, 88%, 63%);
+}
+@media screen and (max-width: 375px) {
+  body .container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#button {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#name #card_name {
+  width: 30px;
+  border-radius: 50%;
+  margin: 20px;
+  margin-left: 0;
+}
+#name div {
+  align-content: center;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+#card {
+  background-color: hsl(0, 0%, 100%);
+  width: 30%;
+  border-radius: 20px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid #000;
+  -webkit-box-shadow: 8px 7px 0px 3px #000000;
+  box-shadow: 8px 7px 0px 3px #000000;
+}
+#card #text {
+  margin: auto 20px;
+}
+#card #text p {
+  color: hsl(0, 0%, 7%);
+}
+#card #text h1 {
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+#card #text h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+#card #text #presentation {
+  line-height: 30px;
+  color: hsl(0, 0%, 42%);
+}
+#card #img_article {
+  width: 90%;
+  margin: 30px auto;
+}
+@media screen and (max-width: 375px) {
+  #card {
+    width: 90%;
+    margin: 50px auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
